@@ -1,3 +1,13 @@
+/* ==UserStyle==
+@name        RIT-SE-Courses-Dark-Theme
+@namespace   Inchworm333
+@version     1.0
+@homepageURL https://github.com/Inchworm333/RIT-SE-Courses-Dark-Theme/
+@updateURL   https://raw.githubusercontent.com/Inchworm333/RIT-SE-Courses-Dark-Theme/main/SWEN-Course-Dark.user.css
+@license     MIT
+@author      Inchworm333
+==/UserStyle== */
+
 @-moz-document regexp("http:\\/\\/www.se.rit.edu\\/~swen-.*") {
 body , h1, h2, h3, h4, p {
 	background-color: #212121;
