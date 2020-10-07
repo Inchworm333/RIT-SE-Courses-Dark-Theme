@@ -1,0 +1,60 @@
+@-moz-document regexp("http:\\/\\/www.se.rit.edu\\/~swen-.*") {
+body , h1, h2, h3, h4, p {
+	background-color: #212121;
+	color: #EEEEEE;
+}
+
+/* HEADER */
+nav ul {
+	background-color: #424242 !important;
+}
+
+/* FIX LOGO */
+a[href="http://www.se.rit.edu"] img {
+	filter: hue-rotate(180deg) invert(1);
+}
+
+/* CODE BLOCKS */
+code {
+	background-color: #424242;
+	color: red;
+	border-color: black;
+}
+
+pre {
+	color: #FAFAFA !important;
+	background-color: #424242;
+}
+
+/* CALENDAR */
+tr th {
+	color: #EEEEEE;
+	border-color: black !important;
+}
+
+table.gridtable tr:nth-child(even) td{
+	background-color: #757575;
+	color: #EEEEEE;
+	border-color: black !important;
+}
+
+table.gridtable tr:nth-child(odd) td {
+	background-color: #616161 !important;
+	color: #EEEEEE;
+	border-color: black !important;
+}
+
+/* LINKS */
+
+table.gridtable tr td a, a {
+	color: #29B6F6;
+}
+
+table.gridtable tr td a:hover, table.gridtable tr td a:visited:hover, a:hover, a:hover:visited {
+	color: #81D4FA !important;
+}
+
+table.gridtable tr td a:visited , a:visited{
+	color: #BA68C8;
+}
+}
